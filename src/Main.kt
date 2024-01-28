@@ -56,6 +56,10 @@ fun main() {
     }
 }
 
+/**
+ * Solicita al usuario que introduzca un nombre.
+ * @return El nombre introducido por el usuario.
+ */
 fun pedirNombre(): String {
     var nombre: String?
     do {
